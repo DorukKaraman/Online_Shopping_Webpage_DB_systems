@@ -53,11 +53,12 @@ It was developed as part of the *Computers and Data Organization* course to expl
 ### 4. Run the Project
 - python shopping_project.py
 
---
+---
 
 ## Project Structure
 .
-├── shopping_project.py      # Main Python script with GUI and database logic
-├── shopping_db.db           # SQLite database (generated if not exists)
-└── README.md                # Project description and setup guide
+├── cs281proje.py      # Main Python script (GUI + database logic)
+├── database1.db       # SQLite database (auto-created if it does not exist)
+├── schema.sql         # SQL schema to rebuild the database from scratch
+└── README.md          # Project description and setup guide
 
