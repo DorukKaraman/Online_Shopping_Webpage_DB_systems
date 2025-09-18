@@ -37,3 +37,27 @@ It was developed as part of the *Computers and Data Organization* course to expl
 - **Python 3**
 - **SQLite** (Relational Database)
 - **PySimpleGUI** (GUI framework)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+### 2. Install Dependencies
+- pip install PySimpleGUI
+
+### 3. Create the database
+- sqlite3 shopping_db.db < schema.sql
+
+### 4. Run the Project
+- python shopping_project.py
+
+--
+
+## Project Structure
+.
+├── shopping_project.py      # Main Python script with GUI and database logic
+├── shopping_db.db           # SQLite database (generated if not exists)
+└── README.md                # Project description and setup guide
+
